@@ -118,8 +118,17 @@
       "root": "C:\\Users\\kely\\Desktop\\egg-example\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "egg-example",
@@ -140,7 +149,8 @@
       "author": "",
       "license": "ISC",
       "dependencies": {
-        "egg": "^2.2.0"
+        "egg": "^2.2.0",
+        "egg-view-nunjucks": "^2.1.4"
       },
       "devDependencies": {
         "egg-bin": "^4.3.7"
@@ -392,6 +402,20 @@
       "from": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view",
       "version": "2.0.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\kely\\Desktop\\egg-example\\config\\plugin.js",
+      "path": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks",
+      "version": "2.1.4"
     }
   }
 }

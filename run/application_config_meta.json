@@ -1,5 +1,14 @@
 {
   "keys": "C:\\Users\\kely\\Desktop\\egg-example\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "C:\\Users\\kely\\Desktop\\egg-example\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "C:\\Users\\kely\\Desktop\\egg-example\\config\\config.default.js"
+    },
+    "root": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
@@ -111,12 +120,12 @@
     "buffer": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
     "maxFiles": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
+  "nunjucks": {
+    "autoescape": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
   "env": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js",
   "name": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js",
@@ -136,7 +145,8 @@
     "author": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js",
     "license": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "egg": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "C:\\Users\\kely\\Desktop\\egg-example\\node_modules\\egg\\config\\config.default.js"
